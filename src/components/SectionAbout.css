@@ -1,0 +1,126 @@
+.section-about {
+  margin-top: var(--media-margin-top);
+  width: 100%;
+}
+
+.section-about h2 span {
+  color: white;
+}
+
+.section-about article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+  text-align: left;
+  background-color: #13131a;
+  border-radius: 0.3rem;
+}
+
+.section-about article div {
+  margin: auto;
+  margin-top: 0.6rem;
+  width: 92%;
+}
+
+.section-about article div h3 {
+  font-size: 1.5rem;
+}
+
+.section-about article div p {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.section-about article div p:nth-child(3) {
+  margin-top: 1rem;
+}
+
+.section-about article div a {
+  margin: 0;
+  margin-top: 0.9rem;
+  margin-bottom: 1.1rem;
+  align-self: flex-start;
+}
+
+/* 500px */
+@media screen and (min-width: 31.25em) {
+  .section-about article div h3 {
+    font-size: 1.7rem;
+  }
+
+  .section-about article div p {
+    font-size: 0.85rem;
+  }
+}
+
+/* 800px */
+@media screen and (min-width: 50em) {
+  .section-about article {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97%;
+    height: 350px;
+  }
+
+  .section-about article figure {
+    margin: auto;
+    width: 50%;
+  }
+
+  .section-about article div {
+    margin: auto;
+    width: 45%;
+  }
+}
+
+/* 1000px */
+@media screen and (min-width: 62.5em) {
+  .section-about article {
+    width: 96%;
+    height: auto;
+  }
+
+  .section-about article div {
+    margin-left: 1.2rem;
+    padding-right: 1rem;
+    width: 50%;
+  }
+
+  .section-about article div p {
+    font-size: 1rem;
+  }
+}
+
+/* 1200px */
+@media screen and (min-width: 75em) {
+  .section-about article {
+    width: 90%;
+  }
+
+  .section-about article div h3 {
+    font-size: 1.8rem;
+  }
+
+  .section-about article div p {
+    font-size: 1.15rem;
+  }
+}
+
+/* 1400px */
+@media screen and (min-width: 87.5em) {
+  .section-about article {
+    width: 85%;
+  }
+}
+
+/* 1700px */
+@media screen and (min-width: 106.25em) {
+  .section-about article div {
+    margin-left: 0;
+    padding-right: 1rem;
+    width: 60%;
+  }
+}

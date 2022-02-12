@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  /* font-family: "Courgette", cursive;
+  font-family: "PT Serif", serif; */
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*:root {
+  --principal-color: rgb(211, 173, 127);
+  --media-margin-top: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+img, iframe {
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  margin: auto;
+  padding-bottom: 1.8rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--principal-color);
+}
+
+a {
+  display: block;
+  width: 150px;
+  margin: auto;
+  margin-top: 0.9rem;
+  padding: 0.3rem 0;
+  text-align: center;
+  background-color: var(--principal-color);
+}
+
+p {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  font-weight: lighter;
+  color: #eee;
+}
+
+.div-container-price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  margin-top: 0.6rem;
+}
+
+.div-container-price h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.div-container-price span {
+  text-decoration: line-through;
+  align-self: flex-end;
+  font-weight: 300;
+}
+
+/* 500px */
+@media screen and (min-width: 31.25em) {
+  h2 {
+    font-size: 2.2rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* 550px */
+@media screen and (min-width: 34.375em) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* 800px */
+@media screen and (min-width: 50em) {
+  a {
+    margin: 0;
+    margin-top: 0.9rem;
+    padding: 0.5rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* 1024 */
+@media screen and (min-width: 64em) {
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  a {
+    padding: 0.55rem 0;
+    width: 170px;
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .div-container-price h4 {
+    font-size: 1.3rem;
+  }
+
+  .div-container-price span {
+    font-size: 1.2rem;
+  }
+}
+
+/* 1400px */
+@media screen and (min-width: 87.5em) {
+  .div-container-price h4 {
+    font-size: 1.35rem;
+  }
+
+  .div-container-price span {
+    font-size: 1.25rem;
   }
 }

@@ -1,0 +1,113 @@
+.section-our-products {
+  margin-top: var(--media-margin-top);
+  width: 100%;
+}
+
+.section-our-products h2 span {
+  color: white;
+}
+
+.div-container-grid-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  row-gap: 1rem;
+  column-gap: 0.001rem;
+  margin: auto;
+  width: 97%;
+}
+
+.div-container-grid-products article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 95%;
+  height: 460px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 0.3rem;
+  transition: background-color 0.5s ease;
+}
+
+article .div-container-icons-products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}
+
+article .div-container-icons-products a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  background-color: initial;
+  transition: background-color 0.2s ease;
+}
+
+article .div-container-icons-products a:hover {
+  background-color: var(--principal-color);
+}
+
+.div-container-grid-products article figure {
+  margin-top: 1.65rem;
+}
+
+.div-container-grid-products article h5 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+article .div-container-star-products {
+  margin-top: 0.7rem;
+  color: var(--principal-color);
+}
+
+article .div-container-price {
+  margin-bottom: 0.5rem;
+}
+
+.div-container-icons-products a:nth-child(1)::before {
+  content: "\f07a";
+}
+
+.div-container-icons-products a:nth-child(2)::before {
+  content: "\f004";
+}
+
+.div-container-icons-products a:nth-child(3)::before {
+  content: "\f06e";
+}
+
+.div-container-star-products li::before {
+  content: "\f005";
+}
+
+/* 1024 */
+@media screen and (min-width: 64em) {
+  .div-container-grid-products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 1400px */
+@media screen and (min-width: 87.5em) {
+  .div-container-grid-products {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-content: center;
+    width: 90%;
+  }
+}
+
+/* 1600px */
+@media screen and (min-width: 100em) {
+  .div-container-grid-products article {
+    height: 500px;
+  }
+  .div-container-grid-products {
+    width: 85%;
+  }
+}
