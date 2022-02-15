@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Coffe-Page/static/css/main.42c1fbbf.css",
-    "main.js": "/Coffe-Page/static/js/main.698677ad.js",
+    "main.css": "/Coffe-Page/static/css/main.dd0a9ecc.css",
+    "main.js": "/Coffe-Page/static/js/main.1083a012.js",
     "static/js/787.589a3c69.chunk.js": "/Coffe-Page/static/js/787.589a3c69.chunk.js",
     "static/media/home-img.jpeg": "/Coffe-Page/static/media/home-img.e39539bb5a58d6827d50.jpeg",
     "static/media/about-img.jpeg": "/Coffe-Page/static/media/about-img.3f087d850ed9e2aef04a.jpeg",
@@ -26,14 +26,12 @@
     "static/media/menu-3.png": "/Coffe-Page/static/media/menu-3.44d221229e80535a7010.png",
     "index.html": "/Coffe-Page/index.html",
     "static/media/input-search.svg": "/Coffe-Page/static/media/input-search.1b1fdd93949d7445d120599f6cbb0c62.svg",
-    "static/media/search.svg": "/Coffe-Page/static/media/search.87e5c9f18b042ae999b509d2519dcb6b.svg",
-    "static/media/menu.svg": "/Coffe-Page/static/media/menu.a1c162cdaf68ae22528250549afba153.svg",
-    "main.42c1fbbf.css.map": "/Coffe-Page/static/css/main.42c1fbbf.css.map",
-    "main.698677ad.js.map": "/Coffe-Page/static/js/main.698677ad.js.map",
+    "main.dd0a9ecc.css.map": "/Coffe-Page/static/css/main.dd0a9ecc.css.map",
+    "main.1083a012.js.map": "/Coffe-Page/static/js/main.1083a012.js.map",
     "787.589a3c69.chunk.js.map": "/Coffe-Page/static/js/787.589a3c69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c1fbbf.css",
-    "static/js/main.698677ad.js"
+    "static/css/main.dd0a9ecc.css",
+    "static/js/main.1083a012.js"
   ]
 }
