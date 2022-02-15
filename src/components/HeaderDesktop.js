@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import logo from "../assets/img/logo.png";
-import search from "../assets/logos/search.svg";
-import trolley from "../assets/logos/trolley.png";
 import "./Header.css";
 import InputSearch from "./InputSearch";
 import Trolley from "./TrolleyContainer";
-const HeaderDesktop = () => {
+const HeaderDesktop = ({ trolley, setTrolley }) => {
   useEffect(() => {
     const $containerInputSearch = document.querySelector(
       ".div-container-input-search"
@@ -69,7 +67,7 @@ const HeaderDesktop = () => {
       <div className="div-container-icons-function">
         {<InputSearch />}
 
-        {<Trolley />}
+        {<Trolley trolley={trolley} setTrolley={setTrolley} />}
       </div>
     </header>
   );
